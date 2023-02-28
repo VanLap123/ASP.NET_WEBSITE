@@ -1,0 +1,71 @@
+@model IEnumerable<WEBGROUP_GCC0903.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+               Product Name
+            </th>
+            <th>
+              Quantity
+            </th>
+            <th>
+               Import Price
+            </th>
+            <th>
+                Sale Price
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Category ID
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.pro_name
+            </td>
+            <td>
+                @item.pro_quantity
+            </td>
+            <td>
+                @item.import_price
+            </td>
+            <td>
+                @item.sale_price
+            </td>
+            <td>
+                <img src="~/Products/@item.pro_image" style= "width:130px;height:130px"/>
+            </td>
+            <td>
+                @item.description
+            </td>
+            <td>
+                @item.cat_id
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.pro_id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.pro_id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.pro_id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

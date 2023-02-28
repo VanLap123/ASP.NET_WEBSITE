@@ -1,0 +1,35 @@
+@model IEnumerable<WEBGROUP_GCC0903.Models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                Category Name
+            </th>
+            <th>Options</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.cat_name
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.cat_id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.cat_id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.cat_id" onclick ="return conform('chac chua')">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

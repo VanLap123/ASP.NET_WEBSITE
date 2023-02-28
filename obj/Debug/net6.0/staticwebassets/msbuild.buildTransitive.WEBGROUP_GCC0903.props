@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\WEBGROUP_GCC0903.props" />
+</Project>

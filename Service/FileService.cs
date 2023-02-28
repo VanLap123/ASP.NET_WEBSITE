@@ -1,0 +1,70 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace WEBGROUP_GCC0903.Service
+{
+    public class FileService : IFileService
+    {
+        IWebHostEnvironment environment;
+
+        public FileService(IWebHostEnvironment env)
+        {
+            environment = env;
+        }
+
+
+        public Tuple<int, string> SaveImage(IFormFile imageFile)
+        {
+            try
+            {
+                var wwwPath = this.environment.WebRootPath;
+                var path = Path.Combine(wwwPath, "Products");
+                if (!Directory.Exists(path))
+                {
+                    Directory.CreateDirectory(path);
+                }
+
+                // Check the allowed extenstions
+                var ext = Path.GetExtension(imageFile.FileName);
+                var allowedExtensions = new string[] { ".jpg", ".png", ".jpeg" };
+                if (!allowedExtensions.Contains(ext))
+                {
+                    string msg = string.Format("Only {0} extensions are allowed", string.Join(",", allowedExtensions));
+                    return new Tuple<int, string>(0, msg);
+                }
+                string uniqueString = Guid.NewGuid().ToString();
+                var newFileName = uniqueString + ext;
+                var fileWithPath = Path.Combine(path, newFileName);
+                var stream = new FileStream(fileWithPath, FileMode.Create);
+                imageFile.CopyTo(stream);
+                stream.Close();
+                return new Tuple<int, string>(1, newFileName);
+            }
+            catch (Exception ex)
+            {
+                return new Tuple<int, string>(0, "Error has occured");
+            }
+        }
+
+        public bool DeleteImage(string imageFileName)
+        {
+            try
+            {
+                var wwwPath = this.environment.WebRootPath;
+                var path = Path.Combine(wwwPath, "Products\\", imageFileName);
+                if (System.IO.File.Exists(path))
+                {
+                    System.IO.File.Delete(path);
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+    }
+}

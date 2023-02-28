@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Product>
+@{
+	ViewData["Title"] = "Home Page";
+}
+<h1 class=>Product List</h1>
+<section>
+	<div class="row">
+		@foreach (var item in Model)
+		{
+
+			<div class="container mt-5 mb-5">
+				<div class="d-flex justify-content-center row">
+					@* < class="col-md-10"> *@
+					<div class="row p-2 bg-white border rounded">
+						<div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+		   src="~/Products/@item.pro_image" width="310" height="500"></div>
+						<div class="col-md-6 mt-1">
+							<h5><a class="title">Title: @item.pro_name</a></h5>
+							<div class="d-flex flex-row">
+								<div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+										class="fa fa-star"></i><i class="fa fa-star"></i></div><span></span>
+							</div>
+							<div class="mt-1 mb-1 spec-1"><span></span><span class="dot"></span><span></span><span
+									class="dot"></span><span>Description: @item.description<br></span></div>
+							<div class="mt-1 mb-1 spec-1"><span></span><span class="dot"></span><span></span><span
+									class="dot"></span><span><br></span></div>
+							<p class="text-justify text-truncate para mb-0"><br><br>
+							</p>
+						</div>
+						<div class="align-items-center align-content-center col-md-3 border-left mt-1">
+							<div class="d-flex flex-row align-items-center">
+								<h4 class="mr-1">Price: $@item.sale_price</h4>
+							</div>
+							<h6 class="text-success">Free Shipping</h6>
+							<div class="d-flex flex-column mt-4"> <a asp-route="addcart" asp-route-productid="@item.pro_id"class="btn btn-secondary btn-sm float-right">Add to cart</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			@* <div class="col-3">
+		<div class="product-f-image">
+		<div class="d-flex justify-content-center">
+		<img src="~/Products/@item.pro_image" width="200" height="200">
+		</div>
+		<div class="mt-2 text-center">
+		<a asp-route="addcart" asp-route-productid="@item.pro_id" class="btn btn-primary add-to-cart-link">
+		<i class="fa fa-shopping-cart"></i> Add to Cart
+		</a>
+		<a href="#" class="btn btn-primary view-details-link">
+		<i class="fa fa-link"></i> See details
+		</a>
+		</div>
+		</div>
+		<h2 class="text-center mt-2">
+		<a class="card-title text-decoration-none">@item.pro_name</a>
+		</h2>
+		<div class="product-carousel-price text-center">
+		@item.sale_price
+		</div>
+		</div> *@
+		}
+	</div>
+</section>
+
+

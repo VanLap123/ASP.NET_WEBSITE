@@ -1,0 +1,181 @@
+ @model List<WEBGROUP_GCC0903.Models.CartItem>
+
+@*<h2>GIỎ HÀNG</h2>
+
+@if (Model.Count > 0) {
+  float total = 0;
+  int stt = 1;
+  
+  <table class="table">
+    <tr>
+      <th>#</th>
+      <th>Sản phẩm</th>
+      <th>Giá</th>
+      <th>Số lượng</th>
+      <th>Thành tiền</th>
+      <th></th>
+    </tr>
+    @foreach (var cartitem in Model)
+    {
+        var thanhtien = cartitem.quantity * cartitem.product.sale_price;
+        total += thanhtien;
+
+        <tr>
+           <td>@(stt++)</td>
+           <td>@cartitem.product.pro_name</td>
+           <td>@(cartitem.product.sale_price.ToString("n0"))</td>
+           <td><input asp-for="@cartitem.quantity" id="@($"quantity-{cartitem.product.pro_id}")"/></td>
+           <td>@(thanhtien.ToString("n0"))</td>
+           <td>
+
+              <button type="button" class="btn btn-outline-primary updatecartitem" data-productid="@cartitem.product.pro_id">Update</button>
+              <a asp-route="removecart" asp-route-productid="@cartitem.product.pro_id"
+                class="btn btn-outline-primary">Remove</a>
+           </td>
+        </tr>
+    }
+      <tr>
+          <td colspan="4" class="text-right">Cost total:</td>
+          <td>@(total.ToString("n0"))</td>
+          <td></td>
+      </tr>
+  </table>
+
+  <a asp-controller="Product" asp-action="Checkout" class="btn btn-dark">Oder</a>
+
+      @section Scripts {
+        <script>
+          $(document).ready(function () {
+              $(".updatecartitem").click(function (event) {
+                  event.preventDefault();
+                  var productid = $(this).attr("data-productid");
+                  var quantity = $("#quantity-" + productid).val();
+                  $.ajax({
+                      type: "POST",
+                      url:"@Url.RouteUrl("updatecart")",
+                      data: {
+                          productid: productid,
+                          quantity:quantity
+                      },
+                      success: function (result) {
+                          window.location.href = "@Url.RouteUrl("cart")";
+                      }
+                  });
+              });
+          });
+        </script>
+      }
+
+}
+else {
+  <p class="alert alert-danger">Giỏ hàng trống</p>
+} *@
+
+
+@if (Model.Count > 0) {
+  float total = 0;
+<section class="h-100 h-custom" style="background-color: #d2c9ff;">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12">
+        <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+          <div class="card-body p-0">
+            <div class="row g-0">
+              <div class="col-lg-8">
+                <div class="p-5">
+                  <div class="d-flex justify-content-between align-items-center mb-5">
+                    <h1 class="fw-bold mb-0 text-black">Shopping Cart</h1>
+                    @* <h6 class="mb-0 text-muted">3 items</h6> *@
+                  </div>
+
+                  @foreach (var cartitem in Model)
+                  { 
+                     var thanhtien = cartitem.quantity * cartitem.product.sale_price;
+                      total += thanhtien;        
+                  <hr class="my-4">
+
+                  <div class="row mb-4 d-flex justify-content-between align-items-center">
+                    <div class="col-md-2 col-lg-2 col-xl-2">
+                      <img
+                        src="~/Products/@cartitem.product.pro_image"
+                        class="img-fluid rounded-3" alt="Cotton T-shirt">
+                    </div>
+                    <div class="col-md-5 col-lg-5 col-xl-5">
+                      <h6 class="text-muted">Name: @cartitem.product.pro_name</h6>
+                       <h6 class="text-black mb-0"> Price: @cartitem.product.sale_price</h6>
+                       <h6 class="text-black mb-0">Quantity: <input asp-for="@cartitem.quantity" id="@($"quantity-{cartitem.product.pro_id}")"/> </h6>
+                       <h6 class="text-black mb-0"> Amount: @(thanhtien.ToString("n0"))</h6> 
+                       
+                    </div>
+                     
+                     <div class="col-md-5 col-lg-5 col-xl-5">
+                       
+                          <button type="button" class="btn btn-outline-primary updatecartitem" data-productid="@cartitem.product.pro_id">Update</button>
+                      <a asp-route="removecart" asp-route-productid="@cartitem.product.pro_id" class="btn btn-outline-primary">Remove</a>
+                      
+                    </div>
+                    
+                  </div>
+                  }
+
+                  <hr class="my-4">
+
+                  <div class="pt-5">
+                    <h6 class="mb-0"><a href="#!" class="text-body">
+                    @* <i class="fas fa-long-arrow-alt-left me-2" asp-controller="Home" asp-action="Index"></i>Back to shop</a></h6> *@
+                          <a class="fas fa-long-arrow-alt-left me-2" asp-area="" asp-controller="Home" asp-action="Index">Back to shop</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 bg-grey">
+                <div class="p-5">
+
+
+                  <hr class="my-4">
+
+                  <div class="d-flex justify-content-between mb-5">
+                    <h5 class="text-uppercase">Total price: @(total.ToString("n0"))</h5>
+                    @* <h5>€ 137.00</h5> *@
+                  </div>
+
+                  @* <button type="button" asp-controller="Product" asp-action="Checkout" class="btn btn-dark btn-block btn-lg"
+                    data-mdb-ripple-color="dark">Checkout</button> *@
+
+                   <a asp-controller="Product" asp-action="Checkout" class="btn btn-dark">Checkout</a> 
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  @section Scripts {
+        <script>
+          $(document).ready(function () {
+              $(".updatecartitem").click(function (event) {
+                  event.preventDefault();
+                  var productid = $(this).attr("data-productid");
+                  var quantity = $("#quantity-" + productid).val();
+                  $.ajax({
+                      type: "POST",
+                      url:"@Url.RouteUrl("updatecart")",
+                      data: {
+                          productid: productid,
+                          quantity:quantity
+                      },
+                      success: function (result) {
+                          window.location.href = "@Url.RouteUrl("cart")";
+                      }
+                  });
+              });
+          });
+        </script>
+      }
+}
+else {
+  <p class="alert alert-danger">The cart is empty</p>
+}

@@ -1,0 +1,19 @@
+@model Customer
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form asp-controller="Customer" asp-action="Edit" method="post">
+    Name: <input type="text" asp-for="cus_name"><span class="text-danger" asp-validation-for="cus_name"></span>
+    <br>
+    Birthday: <input type="date" asp-for="cus_birthday"><span class="text-danger" asp-validation-for="cus_birthday"></span>
+    <br>
+    Gender: <input type="radio" value="Male" asp-for="cus_gender">Male<input type="radio" value="Female" asp-for="cus_gender">Female<span class="text-danger" asp-validation-for="cus_gender"></span>
+    <br>
+    Address: <textarea cols="30" rows="10" asp-for="cus_address"></textarea><span class="text-danger" asp-validation-for="cus_address"></span>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+@section scripts{
+        <partial name="_ValidationScriptsPartial"/>
+    }

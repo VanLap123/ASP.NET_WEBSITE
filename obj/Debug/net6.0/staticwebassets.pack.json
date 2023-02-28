@@ -1,0 +1,333 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WEBGROUP_GCC0903.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WEBGROUP_GCC0903.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\01a5c28b-d2e5-499d-bd4c-f9cfa21d29f9.jpg",
+      "PackagePath": "staticwebassets\\Products\\01a5c28b-d2e5-499d-bd4c-f9cfa21d29f9.jpg"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\031edbf4-f042-4f3b-84e0-dab09b139155.jpg",
+      "PackagePath": "staticwebassets\\Products\\031edbf4-f042-4f3b-84e0-dab09b139155.jpg"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\07a3b2e2-08f4-4d28-8d9f-1902e2f450e0.jpg",
+      "PackagePath": "staticwebassets\\Products\\07a3b2e2-08f4-4d28-8d9f-1902e2f450e0.jpg"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\237aa119-2099-43bb-ba97-30169e366309.jpg",
+      "PackagePath": "staticwebassets\\Products\\237aa119-2099-43bb-ba97-30169e366309.jpg"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\3660eb55-225b-4fa9-b412-1edb2e1d546a.png",
+      "PackagePath": "staticwebassets\\Products\\3660eb55-225b-4fa9-b412-1edb2e1d546a.png"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\37488c07-a918-455d-a94c-9f210779b30c.jpg",
+      "PackagePath": "staticwebassets\\Products\\37488c07-a918-455d-a94c-9f210779b30c.jpg"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\478fa66f-c3c0-4ccb-b7c8-50fcd75aff87.jpg",
+      "PackagePath": "staticwebassets\\Products\\478fa66f-c3c0-4ccb-b7c8-50fcd75aff87.jpg"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\4bdd2267-7e22-445b-9be7-09fecf9de60e.jpg",
+      "PackagePath": "staticwebassets\\Products\\4bdd2267-7e22-445b-9be7-09fecf9de60e.jpg"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\51c475ed-fd49-4e31-b886-51cdc7c1139a.jpg",
+      "PackagePath": "staticwebassets\\Products\\51c475ed-fd49-4e31-b886-51cdc7c1139a.jpg"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\80d26dec-7e59-41ba-a035-aff9588c2e2b.jpg",
+      "PackagePath": "staticwebassets\\Products\\80d26dec-7e59-41ba-a035-aff9588c2e2b.jpg"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\8ca5dd9d-3015-4dd7-90b6-631e94dfae95.png",
+      "PackagePath": "staticwebassets\\Products\\8ca5dd9d-3015-4dd7-90b6-631e94dfae95.png"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\9a279de3-5292-478e-8304-b2334d53630d.png",
+      "PackagePath": "staticwebassets\\Products\\9a279de3-5292-478e-8304-b2334d53630d.png"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\a4235222-7f62-4489-a178-6cf22f7c5e7d.png",
+      "PackagePath": "staticwebassets\\Products\\a4235222-7f62-4489-a178-6cf22f7c5e7d.png"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\b20a34fc-1f02-4892-b5ef-9ec4d315ae98.jpg",
+      "PackagePath": "staticwebassets\\Products\\b20a34fc-1f02-4892-b5ef-9ec4d315ae98.jpg"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\bf5f38bc-b77e-4fd7-b669-ea557c36be38.png",
+      "PackagePath": "staticwebassets\\Products\\bf5f38bc-b77e-4fd7-b669-ea557c36be38.png"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\Products\\e05da1d9-8a16-4dd7-bba8-5b4a7b6724d3.jpg",
+      "PackagePath": "staticwebassets\\Products\\e05da1d9-8a16-4dd7-bba8-5b4a7b6724d3.jpg"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\My_Courses\\1670-ApplicationDevelopment\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WEBGROUP_GCC0903.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WEBGROUP_GCC0903.props",
+      "PackagePath": "build\\WEBGROUP_GCC0903.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WEBGROUP_GCC0903.props",
+      "PackagePath": "buildMultiTargeting\\WEBGROUP_GCC0903.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WEBGROUP_GCC0903.props",
+      "PackagePath": "buildTransitive\\WEBGROUP_GCC0903.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
