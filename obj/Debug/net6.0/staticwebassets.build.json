@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3jO5T224RoyDY8UogxDpCf+BTD91mq8C+dA5FRxrNCo=",
+  "Hash": "R/J2L9ZWYs2XxrPbxDqU3yYRByQEFQE4KF0Dj/gUt/c=",
   "Source": "WEBGROUP_GCC0903",
   "BasePath": "_content/WEBGROUP_GCC0903",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "WEBGROUP_GCC0903\\wwwroot",
       "Source": "WEBGROUP_GCC0903",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.12\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WEBGROUP_GCC0903.styles.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WEBGROUP_GCC0903.styles.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "WEBGROUP_GCC0903.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WEBGROUP_GCC0903.styles.css"
+      "OriginalItemSpec": "D:\\Web1670\\WEBGROUP_GCC0903\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WEBGROUP_GCC0903.styles.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WEBGROUP_GCC0903.bundle.scp.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WEBGROUP_GCC0903.bundle.scp.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "WEBGROUP_GCC0903.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WEBGROUP_GCC0903.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Web1670\\WEBGROUP_GCC0903\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WEBGROUP_GCC0903.bundle.scp.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\css\\payment.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\css\\payment.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "css/payment.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\payment.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\css\\site.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\css\\style.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\css\\style.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\favicon.ico",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\js\\site.js",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\01a5c28b-d2e5-499d-bd4c-f9cfa21d29f9.jpg",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\01a5c28b-d2e5-499d-bd4c-f9cfa21d29f9.jpg",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/01a5c28b-d2e5-499d-bd4c-f9cfa21d29f9.jpg",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\01a5c28b-d2e5-499d-bd4c-f9cfa21d29f9.jpg"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\031edbf4-f042-4f3b-84e0-dab09b139155.jpg",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\031edbf4-f042-4f3b-84e0-dab09b139155.jpg",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/031edbf4-f042-4f3b-84e0-dab09b139155.jpg",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\031edbf4-f042-4f3b-84e0-dab09b139155.jpg"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\07a3b2e2-08f4-4d28-8d9f-1902e2f450e0.jpg",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\07a3b2e2-08f4-4d28-8d9f-1902e2f450e0.jpg",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/07a3b2e2-08f4-4d28-8d9f-1902e2f450e0.jpg",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\07a3b2e2-08f4-4d28-8d9f-1902e2f450e0.jpg"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\0d99a9b8-2661-4907-bbe0-1d9215a18551.jpg",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\0d99a9b8-2661-4907-bbe0-1d9215a18551.jpg",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/0d99a9b8-2661-4907-bbe0-1d9215a18551.jpg",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\0d99a9b8-2661-4907-bbe0-1d9215a18551.jpg"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\237aa119-2099-43bb-ba97-30169e366309.jpg",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\237aa119-2099-43bb-ba97-30169e366309.jpg",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/237aa119-2099-43bb-ba97-30169e366309.jpg",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\237aa119-2099-43bb-ba97-30169e366309.jpg"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\2d3846b1-e44d-45eb-be5b-461385bca109.jpg",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\2d3846b1-e44d-45eb-be5b-461385bca109.jpg",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/2d3846b1-e44d-45eb-be5b-461385bca109.jpg",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\2d3846b1-e44d-45eb-be5b-461385bca109.jpg"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\3660eb55-225b-4fa9-b412-1edb2e1d546a.png",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\3660eb55-225b-4fa9-b412-1edb2e1d546a.png",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/3660eb55-225b-4fa9-b412-1edb2e1d546a.png",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\3660eb55-225b-4fa9-b412-1edb2e1d546a.png"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\37488c07-a918-455d-a94c-9f210779b30c.jpg",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\37488c07-a918-455d-a94c-9f210779b30c.jpg",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/37488c07-a918-455d-a94c-9f210779b30c.jpg",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\37488c07-a918-455d-a94c-9f210779b30c.jpg"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\478fa66f-c3c0-4ccb-b7c8-50fcd75aff87.jpg",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\478fa66f-c3c0-4ccb-b7c8-50fcd75aff87.jpg",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/478fa66f-c3c0-4ccb-b7c8-50fcd75aff87.jpg",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\478fa66f-c3c0-4ccb-b7c8-50fcd75aff87.jpg"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\4bdd2267-7e22-445b-9be7-09fecf9de60e.jpg",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\4bdd2267-7e22-445b-9be7-09fecf9de60e.jpg",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/4bdd2267-7e22-445b-9be7-09fecf9de60e.jpg",
       "AssetKind": "All",
@@ -2295,10 +2295,27 @@
       "OriginalItemSpec": "wwwroot\\Products\\4bdd2267-7e22-445b-9be7-09fecf9de60e.jpg"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\51c475ed-fd49-4e31-b886-51cdc7c1139a.jpg",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\50704cb9-b394-4875-8ce5-7f10dc5bc66a.jpg",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
+      "BasePath": "_content/WEBGROUP_GCC0903",
+      "RelativePath": "Products/50704cb9-b394-4875-8ce5-7f10dc5bc66a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Products\\50704cb9-b394-4875-8ce5-7f10dc5bc66a.jpg"
+    },
+    {
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\51c475ed-fd49-4e31-b886-51cdc7c1139a.jpg",
+      "SourceId": "WEBGROUP_GCC0903",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/51c475ed-fd49-4e31-b886-51cdc7c1139a.jpg",
       "AssetKind": "All",
@@ -2312,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\51c475ed-fd49-4e31-b886-51cdc7c1139a.jpg"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\7dcd3532-265d-4af3-92b8-be9ab996944d.jpg",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\7dcd3532-265d-4af3-92b8-be9ab996944d.jpg",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/7dcd3532-265d-4af3-92b8-be9ab996944d.jpg",
       "AssetKind": "All",
@@ -2329,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\7dcd3532-265d-4af3-92b8-be9ab996944d.jpg"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\80d26dec-7e59-41ba-a035-aff9588c2e2b.jpg",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\80d26dec-7e59-41ba-a035-aff9588c2e2b.jpg",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/80d26dec-7e59-41ba-a035-aff9588c2e2b.jpg",
       "AssetKind": "All",
@@ -2346,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\80d26dec-7e59-41ba-a035-aff9588c2e2b.jpg"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\8ca5dd9d-3015-4dd7-90b6-631e94dfae95.png",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\8ca5dd9d-3015-4dd7-90b6-631e94dfae95.png",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/8ca5dd9d-3015-4dd7-90b6-631e94dfae95.png",
       "AssetKind": "All",
@@ -2363,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\8ca5dd9d-3015-4dd7-90b6-631e94dfae95.png"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\9a279de3-5292-478e-8304-b2334d53630d.png",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\9a279de3-5292-478e-8304-b2334d53630d.png",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/9a279de3-5292-478e-8304-b2334d53630d.png",
       "AssetKind": "All",
@@ -2380,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\9a279de3-5292-478e-8304-b2334d53630d.png"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\a4235222-7f62-4489-a178-6cf22f7c5e7d.png",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\a4235222-7f62-4489-a178-6cf22f7c5e7d.png",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/a4235222-7f62-4489-a178-6cf22f7c5e7d.png",
       "AssetKind": "All",
@@ -2397,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\a4235222-7f62-4489-a178-6cf22f7c5e7d.png"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\b20a34fc-1f02-4892-b5ef-9ec4d315ae98.jpg",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\b20a34fc-1f02-4892-b5ef-9ec4d315ae98.jpg",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/b20a34fc-1f02-4892-b5ef-9ec4d315ae98.jpg",
       "AssetKind": "All",
@@ -2414,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\b20a34fc-1f02-4892-b5ef-9ec4d315ae98.jpg"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\bf5f38bc-b77e-4fd7-b669-ea557c36be38.png",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\bf5f38bc-b77e-4fd7-b669-ea557c36be38.png",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/bf5f38bc-b77e-4fd7-b669-ea557c36be38.png",
       "AssetKind": "All",
@@ -2431,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\bf5f38bc-b77e-4fd7-b669-ea557c36be38.png"
     },
     {
-      "Identity": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\Products\\e05da1d9-8a16-4dd7-bba8-5b4a7b6724d3.jpg",
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\e05da1d9-8a16-4dd7-bba8-5b4a7b6724d3.jpg",
       "SourceId": "WEBGROUP_GCC0903",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\web dự phòng nè\\WEBGROUP_GCC0903\\wwwroot\\",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
       "BasePath": "_content/WEBGROUP_GCC0903",
       "RelativePath": "Products/e05da1d9-8a16-4dd7-bba8-5b4a7b6724d3.jpg",
       "AssetKind": "All",

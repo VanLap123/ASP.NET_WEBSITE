@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Web1670\\WEBGROUP_GCC0903\\WEBGROUP_GCC0903.csproj": {}
+    "D:\\Web1670\\WEBGROUP_GCC0903\\WEBGROUP_GCC0903.csproj": {}
   },
   "projects": {
-    "d:\\Web1670\\WEBGROUP_GCC0903\\WEBGROUP_GCC0903.csproj": {
+    "D:\\Web1670\\WEBGROUP_GCC0903\\WEBGROUP_GCC0903.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Web1670\\WEBGROUP_GCC0903\\WEBGROUP_GCC0903.csproj",
+        "projectUniqueName": "D:\\Web1670\\WEBGROUP_GCC0903\\WEBGROUP_GCC0903.csproj",
         "projectName": "WEBGROUP_GCC0903",
-        "projectPath": "d:\\Web1670\\WEBGROUP_GCC0903\\WEBGROUP_GCC0903.csproj",
+        "projectPath": "D:\\Web1670\\WEBGROUP_GCC0903\\WEBGROUP_GCC0903.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "d:\\Web1670\\WEBGROUP_GCC0903\\obj\\",
+        "outputPath": "D:\\Web1670\\WEBGROUP_GCC0903\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
