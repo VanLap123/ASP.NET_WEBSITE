@@ -9,17 +9,17 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
+<table class="table table-bordered">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.quantity)
+            <th scope="col">
+                Quantity
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Order)
+            <th scope="col">
+                Order ID
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product)
+            <th scope="col">
+                Product ID
             </th>
             <th></th>
         </tr>
@@ -28,13 +28,13 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.quantity)
+                @item.quantity
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Order.order_id)
+                @item.Order.order_id
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Product.pro_id)
+                @item.Product.pro_id
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
