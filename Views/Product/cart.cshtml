@@ -3,68 +3,7 @@
 @*<h2>GIỎ HÀNG</h2>
 
 @if (Model.Count > 0) {
-  float total = 0;
-  int stt = 1;
   
-  <table class="table">
-    <tr>
-      <th>#</th>
-      <th>Sản phẩm</th>
-      <th>Giá</th>
-      <th>Số lượng</th>
-      <th>Thành tiền</th>
-      <th></th>
-    </tr>
-    @foreach (var cartitem in Model)
-    {
-        var thanhtien = cartitem.quantity * cartitem.product.sale_price;
-        total += thanhtien;
-
-        <tr>
-           <td>@(stt++)</td>
-           <td>@cartitem.product.pro_name</td>
-           <td>@(cartitem.product.sale_price.ToString("n0"))</td>
-           <td><input asp-for="@cartitem.quantity" id="@($"quantity-{cartitem.product.pro_id}")"/></td>
-           <td>@(thanhtien.ToString("n0"))</td>
-           <td>
-
-              <button type="button" class="btn btn-outline-primary updatecartitem" data-productid="@cartitem.product.pro_id">Update</button>
-              <a asp-route="removecart" asp-route-productid="@cartitem.product.pro_id"
-                class="btn btn-outline-primary">Remove</a>
-           </td>
-        </tr>
-    }
-      <tr>
-          <td colspan="4" class="text-right">Cost total:</td>
-          <td>@(total.ToString("n0"))</td>
-          <td></td>
-      </tr>
-  </table>
-
-  <a asp-controller="Product" asp-action="Checkout" class="btn btn-dark">Oder</a>
-
-      @section Scripts {
-        <script>
-          $(document).ready(function () {
-              $(".updatecartitem").click(function (event) {
-                  event.preventDefault();
-                  var productid = $(this).attr("data-productid");
-                  var quantity = $("#quantity-" + productid).val();
-                  $.ajax({
-                      type: "POST",
-                      url:"@Url.RouteUrl("updatecart")",
-                      data: {
-                          productid: productid,
-                          quantity:quantity
-                      },
-                      success: function (result) {
-                          window.location.href = "@Url.RouteUrl("cart")";
-                      }
-                  });
-              });
-          });
-        </script>
-      }
 
 }
 else {
