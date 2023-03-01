@@ -12,6 +12,9 @@
 <table class="table table-bordered">
     <thead>
         <tr>
+             <th scope="col">
+                Id
+            </th>
             <th scope="col">
                 Country
             </th>
@@ -45,6 +48,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @item.order_id
+            </td>
             <td>
                 @item.country
             </td>

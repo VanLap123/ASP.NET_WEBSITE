@@ -13,6 +13,9 @@
     <thead>
         <tr>
             <th>
+                Id
+            </th>
+            <th>
                 Category Name
             </th>
             <th>Options</th>
@@ -21,6 +24,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @item.cat_id
+            </td>
             <td>
                 @item.cat_name
             </td>
