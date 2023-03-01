@@ -56,7 +56,7 @@ namespace WEBGROUP_GCC0903.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("order_id,cus_name,deliveryLocal,cus_phone,OrderDate,DeliveryDate")] Order order)
+        public async Task<IActionResult> Create([Bind("order_id,country,cus_first_name,cus_last_name,cus_address,cus_city,cus_phone,cus_email,OrderDate,DeliveryDate")] Order order)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace WEBGROUP_GCC0903.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("order_id,cus_name,deliveryLocal,cus_phone,OrderDate,DeliveryDate")] Order order)
+        public async Task<IActionResult> Edit(int id, [Bind("order_id,country,cus_first_name,cus_last_name,cus_address,cus_city,cus_phone,cus_email,OrderDate,DeliveryDate")] Order order)
         {
             if (id != order.order_id)
             {

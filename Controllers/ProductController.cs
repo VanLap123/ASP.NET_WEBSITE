@@ -13,7 +13,7 @@ using WEBGROUP_GCC0903.Service;
 
 namespace WEBGROUP_GCC0903.Controllers
 {
-    [Authorize(Roles="Admin")]
+   // [Authorize(Roles="Admin")]
     public class ProductController : Controller
     {
         private readonly ILogger<ProductController> _logger;
@@ -238,13 +238,17 @@ namespace WEBGROUP_GCC0903.Controllers
     
      [Route("/checkout")]
         [HttpPost]
-        public IActionResult CheckOut(string CustName, string Telephone, string Address)
+        public IActionResult CheckOut(string country,string first_name,string last_name,string address,string city,string phone_number,string email_address)
         {
             Order order = new Order()
             {
-                cus_name = CustName,
-                deliveryLocal = Address,
-                cus_phone = Telephone,
+                country = country,
+                cus_first_name = first_name,
+                cus_last_name = last_name,
+                cus_address = address,
+                cus_city = city,
+                cus_phone = phone_number,
+                cus_email=email_address,
                 OrderDate = DateTime.Now,
             };
             _db.Orders.Add(order);

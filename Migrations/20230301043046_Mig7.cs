@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace WEBGROUP_GCC0903.Migrations
 {
-    public partial class Mig6 : Migration
+    public partial class Mig7 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -64,19 +64,24 @@ namespace WEBGROUP_GCC0903.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Customers",
+                name: "Orders",
                 columns: table => new
                 {
-                    cus_id = table.Column<int>(type: "int", nullable: false)
+                    order_id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    cus_name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    cus_birthday = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    cus_gender = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    cus_address = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    country = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    cus_first_name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    cus_last_name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    cus_address = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    cus_city = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    cus_phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    cus_email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    OrderDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    DeliveryDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Customers", x => x.cus_id);
+                    table.PrimaryKey("PK_Orders", x => x.order_id);
                 });
 
             migrationBuilder.CreateTable(
@@ -210,6 +215,53 @@ namespace WEBGROUP_GCC0903.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Customers",
+                columns: table => new
+                {
+                    cus_id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    cus_name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    cus_birthday = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    cus_gender = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    cus_address = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    order_id = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Customers", x => x.cus_id);
+                    table.ForeignKey(
+                        name: "FK_Customers_Orders_order_id",
+                        column: x => x.order_id,
+                        principalTable: "Orders",
+                        principalColumn: "order_id");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "OrderDetails",
+                columns: table => new
+                {
+                    order_id = table.Column<int>(type: "int", nullable: false),
+                    quantity = table.Column<int>(type: "int", nullable: false),
+                    pro_id = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_OrderDetails", x => new { x.order_id, x.pro_id });
+                    table.ForeignKey(
+                        name: "FK_OrderDetails_Orders_order_id",
+                        column: x => x.order_id,
+                        principalTable: "Orders",
+                        principalColumn: "order_id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_OrderDetails_Products_pro_id",
+                        column: x => x.pro_id,
+                        principalTable: "Products",
+                        principalColumn: "pro_id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -250,6 +302,16 @@ namespace WEBGROUP_GCC0903.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Customers_order_id",
+                table: "Customers",
+                column: "order_id");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_OrderDetails_pro_id",
+                table: "OrderDetails",
+                column: "pro_id");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Products_cat_id",
                 table: "Products",
                 column: "cat_id");
@@ -276,13 +338,19 @@ namespace WEBGROUP_GCC0903.Migrations
                 name: "Customers");
 
             migrationBuilder.DropTable(
-                name: "Products");
+                name: "OrderDetails");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
+
+            migrationBuilder.DropTable(
+                name: "Orders");
+
+            migrationBuilder.DropTable(
+                name: "Products");
 
             migrationBuilder.DropTable(
                 name: "Categories");

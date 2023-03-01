@@ -12,7 +12,7 @@ using WEBGROUP_GCC0903.Data;
 namespace WEBGROUP_GCC0903.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230228082753_Mig7")]
+    [Migration("20230301043046_Mig7")]
     partial class Mig7
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -292,15 +292,31 @@ namespace WEBGROUP_GCC0903.Migrations
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("cus_name")
+                    b.Property<string>("country")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("cus_address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("cus_city")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("cus_email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("cus_first_name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("cus_last_name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("cus_phone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("deliveryLocal")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

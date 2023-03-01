@@ -14,19 +14,39 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="order_id" />
             <div class="form-group">
-                <label asp-for="cus_name" class="control-label"></label>
-                <input asp-for="cus_name" class="form-control" />
-                <span asp-validation-for="cus_name" class="text-danger"></span>
+                <label asp-for="country" class="control-label"></label>
+                <input asp-for="country" class="form-control" />
+                <span asp-validation-for="country" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="deliveryLocal" class="control-label"></label>
-                <input asp-for="deliveryLocal" class="form-control" />
-                <span asp-validation-for="deliveryLocal" class="text-danger"></span>
+                <label asp-for="cus_first_name" class="control-label"></label>
+                <input asp-for="cus_first_name" class="form-control" />
+                <span asp-validation-for="cus_first_name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="cus_last_name" class="control-label"></label>
+                <input asp-for="cus_last_name" class="form-control" />
+                <span asp-validation-for="cus_last_name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="cus_address" class="control-label"></label>
+                <input asp-for="cus_address" class="form-control" />
+                <span asp-validation-for="cus_address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="cus_city" class="control-label"></label>
+                <input asp-for="cus_city" class="form-control" />
+                <span asp-validation-for="cus_city" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="cus_phone" class="control-label"></label>
                 <input asp-for="cus_phone" class="form-control" />
                 <span asp-validation-for="cus_phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="cus_email" class="control-label"></label>
+                <input asp-for="cus_email" class="form-control" />
+                <span asp-validation-for="cus_email" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="OrderDate" class="control-label"></label>

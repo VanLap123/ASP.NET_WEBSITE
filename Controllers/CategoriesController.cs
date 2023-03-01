@@ -12,7 +12,7 @@ using WEBGROUP_GCC0903.Models;
 namespace WEBGROUP_GCC0903.Controllers
 {
     // [Authorize]
-    [Authorize(Roles="Admin")]
+   // [Authorize(Roles="Admin")]
     public class CategoriesController : Controller
     {
     private readonly ApplicationDbContext _db;

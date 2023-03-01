@@ -13,13 +13,25 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.cus_name)
+                @Html.DisplayNameFor(model => model.country)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.deliveryLocal)
+                @Html.DisplayNameFor(model => model.cus_first_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cus_last_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cus_address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cus_city)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.cus_phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cus_email)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.OrderDate)
@@ -34,13 +46,25 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.cus_name)
+                @Html.DisplayFor(modelItem => item.country)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.deliveryLocal)
+                @Html.DisplayFor(modelItem => item.cus_first_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cus_last_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cus_address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cus_city)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.cus_phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cus_email)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.OrderDate)
