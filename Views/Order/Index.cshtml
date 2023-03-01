@@ -9,35 +9,35 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
+<table class="table table-bordered">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.country)
+            <th scope="col">
+                Country
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.cus_first_name)
+            <th scope="col">
+                Cus_first_name
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.cus_last_name)
+            <th scope="col">
+                Cus_last_name
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.cus_address)
+            <th scope="col">
+                Cus_address
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.cus_city)
+            <th scope="col">
+                Cus_city
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.cus_phone)
+            <th scope="col">
+                Cus_phone
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.cus_email)
+            <th scope="col">
+                Cus_email
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.OrderDate)
+            <th scope="col">
+                OrderDate
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DeliveryDate)
+            <th scope="col">
+                DeliveryDate
             </th>
             <th></th>
         </tr>
@@ -46,31 +46,31 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.country)
+                @item.country
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.cus_first_name)
+                @item.cus_first_name
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.cus_last_name)
+                @item.cus_last_name
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.cus_address)
+                @item.cus_address
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.cus_city)
+                @item.cus_city
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.cus_phone)
+                @item.cus_phone
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.cus_email)
+                @item.cus_email
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.OrderDate)
+                @item.OrderDate
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DeliveryDate)
+                @item.DeliveryDate
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.order_id">Edit</a> |
