@@ -118,41 +118,12 @@ namespace WEBGROUP_GCC0903.Controllers
             return View(order);
         }
 
-        // GET: Order/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+         public IActionResult Delete(int id)
         {
-            if (id == null || _context.Orders == null)
-            {
-                return NotFound();
-            }
-
-            var order = await _context.Orders
-                .FirstOrDefaultAsync(m => m.order_id == id);
-            if (order == null)
-            {
-                return NotFound();
-            }
-
-            return View(order);
-        }
-
-        // POST: Order/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            if (_context.Orders == null)
-            {
-                return Problem("Entity set 'ApplicationDbContext.Orders'  is null.");
-            }
-            var order = await _context.Orders.FindAsync(id);
-            if (order != null)
-            {
-                _context.Orders.Remove(order);
-            }
-            
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            Order obj=_db.Orders.Find(id);
+            _db.Orders.Remove(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
         }
 
         private bool OrderExists(int id)
