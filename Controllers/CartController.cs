@@ -24,12 +24,8 @@ namespace WEBGROUP_GCC0903.Controllers
 
         }
 
-        // public IActionResult Index()
-        // {
-        //     return View();
-        // }
-
-            /// Thêm sản phẩm vào cart
+        
+            /// add proruct to card
         [Route ("addcart/{productid:int}", Name = "addcart")]
         public IActionResult AddToCart ([FromRoute] int productid) {
 
@@ -37,33 +33,32 @@ namespace WEBGROUP_GCC0903.Controllers
                 .Where (p => p.pro_id == productid)
                 .FirstOrDefault ();
             if (product == null)
-                return NotFound ("Không có sản phẩm");
-
-            // Xử lý đưa vào Cart ...
+                return NotFound ("There are not product");
+            // process put into cart
             var cart = GetCartItems ();
             var cartitem = cart.Find (p => p.product.pro_id == productid);
             if (cartitem != null) {
-                // Đã tồn tại, tăng thêm 1
+                // already exists, increase by 1
                 cartitem.quantity++;
             } else {
-                //  Thêm mới
+                //  add new
                 cart.Add (new CartItem () { quantity = 1, product = product });
             }
 
-    // Lưu cart vào Session
+    // save cart into Session
     SaveCartSession (cart);
-    // Chuyển đến trang hiện thị Cart
+    // come to cart page
     return RedirectToAction (nameof (Cart));
     }
 
 
-    /// xóa item trong cart
+    /// remove item in cart
     [Route ("/removecart/{productid:int}", Name = "removecart")]
     public IActionResult RemoveCart ([FromRoute] int productid) {
         var cart = GetCartItems ();
         var cartitem = cart.Find (p => p.product.pro_id == productid);
         if (cartitem != null) {
-            // Đã tồn tại, tăng thêm 1
+            
             cart.Remove(cartitem);
         }
 
@@ -76,20 +71,20 @@ namespace WEBGROUP_GCC0903.Controllers
     [Route ("/updatecart", Name = "updatecart")]
     [HttpPost]
     public IActionResult UpdateCart ([FromForm] int productid, [FromForm] int quantity) {
-        // Cập nhật Cart thay đổi số lượng quantity ...
+        // update quantity of cart
         var cart = GetCartItems ();
         var cartitem = cart.Find (p => p.product.pro_id == productid);
         if (cartitem != null) {
-            // Đã tồn tại, tăng thêm 1
+          
             cartitem.quantity = quantity;
         }
         SaveCartSession (cart);
-        // Trả về mã thành công (không có nội dung gì - chỉ để Ajax gọi)
+        
         return Ok();
     }
 
 
-    // Hiện thị giỏ hàng
+    // display cartcart
     [Route ("/cart", Name = "cart")]
     public IActionResult Cart () {
         return View (GetCartItems());
@@ -100,7 +95,7 @@ namespace WEBGROUP_GCC0903.Controllers
     [Route("/checkout")]
     public IActionResult CheckOut()
     {
-        // Xử lý khi đặt hàng
+        // processing when order product
        return View(GetCartItems());
     }
     
@@ -139,7 +134,7 @@ namespace WEBGROUP_GCC0903.Controllers
         
     
     
-    // Key lưu chuỗi json của Cart
+    // save json string of cart
     public const string CARTKEY = "cart";
 
     // Lấy cart từ Session (danh sách CartItem)
@@ -153,13 +148,13 @@ namespace WEBGROUP_GCC0903.Controllers
         return new List<CartItem> ();
     }
 
-    // Xóa cart khỏi session
+    // remove cart from session
     void ClearCart () {
         var session = HttpContext.Session;
         session.Remove (CARTKEY);
     }
 
-    // Lưu Cart (Danh sách CartItem) vào session
+    // save Cart (list of CartItem) into session
     void SaveCartSession (List<CartItem> ls) {
         var session = HttpContext.Session;
         string jsoncart = JsonConvert.SerializeObject (ls);
