@@ -21,7 +21,6 @@ namespace WEBGROUP_GCC0903.Controllers
         }
         public IActionResult Index()
         {
-            // lay danh sach khach hang tu dbcontext
             IEnumerable<Customer> ds = _db.Customers.ToList();
             return View(ds);
         }

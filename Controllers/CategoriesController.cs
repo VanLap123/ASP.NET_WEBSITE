@@ -22,19 +22,11 @@ namespace WEBGROUP_GCC0903.Controllers
             _db = db;
         }
 
-        // GET: Categories
-        // public async Task<IActionResult> Index()
-        // {
-        //       return _context.Category != null ? 
-        //                   View(await _context.Category.ToListAsync()) :
-        //                   Problem("Entity set 'ApplicationDbContext.Category'  is null.");
-        // }
-
         public IActionResult Index()
         {
             IEnumerable<Category> CL = _db.Categories.ToList();
             return View(CL);
-               // lay danh sach khach hang tu dbcontext
+               
             
         }
 
@@ -109,23 +101,6 @@ namespace WEBGROUP_GCC0903.Controllers
             return RedirectToAction("Index");
         }
 
-        // POST: Categories/Delete/5
-        // [HttpPost, ActionName("Delete")]
-        // [ValidateAntiForgeryToken]
-        // public IActionResult DeleteConfirmed(int id)
-        // {
-        //     if (_db.Category == null)
-        //     {
-        //         return Problem("Entity set 'ApplicationDbContext.Category'  is null.");
-        //     }
-        //     if (category != null)
-        //     {
-        //         _db.Category.Remove(category);
-        //     }
-            
-        //      _db.SaveChangesAsync();
-        //     return RedirectToAction("Index");
-        // }
 
         private bool CategoryExists(int id)
         {

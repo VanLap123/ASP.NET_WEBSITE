@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -11,7 +10,6 @@ using WEBGROUP_GCC0903.Models;
 
 namespace WEBGROUP_GCC0903.Controllers
 {
-    [Authorize(Roles="Admin")]
     public class OrderDetailController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -26,6 +24,26 @@ namespace WEBGROUP_GCC0903.Controllers
         {
             var applicationDbContext = _context.OrderDetails.Include(o => o.Order).Include(o => o.Product);
             return View(await applicationDbContext.ToListAsync());
+        }
+
+        // GET: OrderDetail/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null || _context.OrderDetails == null)
+            {
+                return NotFound();
+            }
+
+            var orderDetail = await _context.OrderDetails
+                .Include(o => o.Order)
+                .Include(o => o.Product)
+                .FirstOrDefaultAsync(m => m.order_id == id);
+            if (orderDetail == null)
+            {
+                return NotFound();
+            }
+
+            return View(orderDetail);
         }
 
         // GET: OrderDetail/Create
