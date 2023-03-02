@@ -36,24 +36,7 @@ namespace WEBGROUP_GCC0903.Controllers
             return View(ds);
         }
 
-        // GET: Product/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null || _db.Products == null)
-            {
-                return NotFound();
-            }
-
-            var product = await _db.Products
-                .Include(p => p.category)
-                .FirstOrDefaultAsync(m => m.pro_id == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-
-            return View(product);
-        }
+    
 
         // GET: Product/Create
         public IActionResult Create()

@@ -20,29 +20,10 @@ namespace WEBGROUP_GCC0903.Controllers
         }
 
         // GET: Order
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-              return _context.Orders != null ? 
-                          View(await _context.Orders.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Orders'  is null.");
-        }
-
-        // GET: Order/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null || _context.Orders == null)
-            {
-                return NotFound();
-            }
-
-            var order = await _context.Orders
-                .FirstOrDefaultAsync(m => m.order_id == id);
-            if (order == null)
-            {
-                return NotFound();
-            }
-
-            return View(order);
+              IEnumerable<Order> ds = _context.Orders.ToList();
+                return View(ds);
         }
 
         // GET: Order/Create
@@ -88,7 +69,7 @@ namespace WEBGROUP_GCC0903.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("order_id,country,cus_first_name,cus_last_name,cus_address,cus_city,cus_phone,cus_email,OrderDate,DeliveryDate")] Order order)
+        public IActionResult Edit(int id, Order order)
         {
             if (id != order.order_id)
             {
@@ -100,7 +81,7 @@ namespace WEBGROUP_GCC0903.Controllers
                 try
                 {
                     _context.Update(order);
-                    await _context.SaveChangesAsync();
+                    _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {

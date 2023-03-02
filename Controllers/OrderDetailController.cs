@@ -26,26 +26,6 @@ namespace WEBGROUP_GCC0903.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
-        // GET: OrderDetail/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null || _context.OrderDetails == null)
-            {
-                return NotFound();
-            }
-
-            var orderDetail = await _context.OrderDetails
-                .Include(o => o.Order)
-                .Include(o => o.Product)
-                .FirstOrDefaultAsync(m => m.order_id == id);
-            if (orderDetail == null)
-            {
-                return NotFound();
-            }
-
-            return View(orderDetail);
-        }
-
         // GET: OrderDetail/Create
         public IActionResult Create()
         {
@@ -59,12 +39,12 @@ namespace WEBGROUP_GCC0903.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(OrderDetail orderDetail)
+        public async Task<IActionResult> Create([Bind("order_id,quantity,pro_id")] OrderDetail orderDetail)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(orderDetail);
-                _context.SaveChangesAsync();
+                await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             ViewData["order_id"] = new SelectList(_context.Orders, "order_id", "order_id", orderDetail.order_id);
@@ -127,12 +107,43 @@ namespace WEBGROUP_GCC0903.Controllers
             return View(orderDetail);
         }
 
-        public IActionResult Delete(int id)
+        // GET: OrderDetail/Delete/5
+        public async Task<IActionResult> Delete(int? id)
         {
-            OrderDetail obj=_context.OrderDetails.Find(id);
-            _context.OrderDetails.Remove(obj);
-            _context.SaveChanges();
-            return RedirectToAction("Index");
+            if (id == null || _context.OrderDetails == null)
+            {
+                return NotFound();
+            }
+
+            var orderDetail = await _context.OrderDetails
+                .Include(o => o.Order)
+                .Include(o => o.Product)
+                .FirstOrDefaultAsync(m => m.order_id == id);
+            if (orderDetail == null)
+            {
+                return NotFound();
+            }
+
+            return View(orderDetail);
+        }
+
+        // POST: OrderDetail/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            if (_context.OrderDetails == null)
+            {
+                return Problem("Entity set 'ApplicationDbContext.OrderDetails'  is null.");
+            }
+            var orderDetail = await _context.OrderDetails.FindAsync(id);
+            if (orderDetail != null)
+            {
+                _context.OrderDetails.Remove(orderDetail);
+            }
+            
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
         private bool OrderDetailExists(int id)

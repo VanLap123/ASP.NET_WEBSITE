@@ -37,23 +37,6 @@ namespace WEBGROUP_GCC0903.Controllers
                // lay danh sach khach hang tu dbcontext
             
         }
-        // GET: Categories/Details/5
-        public IActionResult Details(int id)
-        {
-            if (id == null || _db.Categories == null)
-            {
-                return NotFound();
-            }
-
-            Category category =  _db.Categories
-                .FirstOrDefault(m => m.cat_id == id);
-            if (category == null)
-            {
-                return NotFound();
-            }
-
-            return View(category);
-        }
 
         // GET: Categories/Create
         public IActionResult Create()
