@@ -68,14 +68,14 @@ namespace WEBGROUP_GCC0903.Controllers
         }
 
         // GET: Order/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public IActionResult Edit(int? id)
         {
             if (id == null || _context.Orders == null)
             {
                 return NotFound();
             }
 
-            var order = await _context.Orders.FindAsync(id);
+            var order =_context.Orders.FindAsync(id);
             if (order == null)
             {
                 return NotFound();
