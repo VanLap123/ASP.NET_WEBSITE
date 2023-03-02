@@ -59,12 +59,12 @@ namespace WEBGROUP_GCC0903.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("order_id,quantity,pro_id")] OrderDetail orderDetail)
+        public IActionResult Create(OrderDetail orderDetail)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(orderDetail);
-                await _context.SaveChangesAsync();
+                _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             ViewData["order_id"] = new SelectList(_context.Orders, "order_id", "order_id", orderDetail.order_id);
