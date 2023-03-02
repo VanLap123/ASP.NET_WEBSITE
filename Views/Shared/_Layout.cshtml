@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -39,18 +39,12 @@
               Management
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" asp-area="" asp-controller="Categories" asp-action="Index">Category</a>
+              <a class="dropdown-item" asp-area="" asp-controller="Product" asp-action="Index">Product</a>
+              <a class="dropdown-item" asp-area="" asp-controller="Order" asp-action="Index">Order</a>
+              <a class="dropdown-item" asp-area="" asp-controller="OrderDetail" asp-action="Index">Order Detail</a>
+              <a class="dropdown-item" asp-area="" asp-controller="Customer" asp-action="Index">Customer</a>
             </div>
-            </li>
-             <li class="nav-item">
-              <a class="nav-link" asp-area="" asp-controller="Categories" asp-action="Index">Category</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" asp-area="" asp-controller="Product" asp-action="Index">Product</a>
-            </li>
             @* }  *@
             <li class="nav-item">
                 <partial name="_LoginPartial" />
@@ -58,7 +52,7 @@
              @* @if (User.Identity.IsAuthenticated) *@
              @* {  *@
              <li class="nav-item">
-                 @await Html.PartialAsync("_CartPartial")
+                  <partial name="_CartPartial" />
             </li>
             @* }  *@
             
@@ -278,3 +272,4 @@
 </body>
 
 </html>
+
