@@ -27,7 +27,6 @@ namespace WEBGROUP_GCC0903.Controllers
             IEnumerable<Category> CL = _db.Categories.ToList();
             return View(CL);
                
-            
         }
 
         // GET: Categories/Create
