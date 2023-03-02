@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using WEBGROUP_GCC0903.Data;
@@ -11,7 +11,7 @@ using WEBGROUP_GCC0903.Models;
 
 namespace WEBGROUP_GCC0903.Controllers
 {
-
+    [Authorize(Roles="Admin")]
     public class CustomerController : Controller
     {
         private readonly ApplicationDbContext _db;

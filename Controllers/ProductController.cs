@@ -13,7 +13,7 @@ using WEBGROUP_GCC0903.Service;
 
 namespace WEBGROUP_GCC0903.Controllers
 {
-   // [Authorize(Roles="Admin")]
+    [Authorize(Roles="Admin")]
     public class ProductController : Controller
     {
         private readonly ILogger<ProductController> _logger;
