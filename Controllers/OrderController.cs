@@ -56,12 +56,12 @@ namespace WEBGROUP_GCC0903.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("order_id,country,cus_first_name,cus_last_name,cus_address,cus_city,cus_phone,cus_email,OrderDate,DeliveryDate")] Order order)
+        public IActionResult Create(Order order)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(order);
-                await _context.SaveChangesAsync();
+                _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(order);
