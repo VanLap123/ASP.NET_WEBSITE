@@ -120,9 +120,9 @@ namespace WEBGROUP_GCC0903.Controllers
 
          public IActionResult Delete(int id)
         {
-            Order obj=_db.Orders.Find(id);
-            _db.Orders.Remove(obj);
-            _db.SaveChanges();
+            Order obj=_context.Orders.Find(id);
+            _context.Orders.Remove(obj);
+            _context.SaveChanges();
             return RedirectToAction("Index");
         }
 
