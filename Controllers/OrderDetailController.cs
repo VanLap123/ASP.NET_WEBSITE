@@ -56,44 +56,7 @@ namespace WEBGROUP_GCC0903.Controllers
 
        
 
-        // GET: OrderDetail/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null || _context.OrderDetails == null)
-            {
-                return NotFound();
-            }
-
-            var orderDetail = await _context.OrderDetails
-                .Include(o => o.Order)
-                .Include(o => o.Product)
-                .FirstOrDefaultAsync(m => m.order_id == id);
-            if (orderDetail == null)
-            {
-                return NotFound();
-            }
-
-            return View(orderDetail);
-        }
-
-        // POST: OrderDetail/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            if (_context.OrderDetails == null)
-            {
-                return Problem("Entity set 'ApplicationDbContext.OrderDetails'  is null.");
-            }
-            var orderDetail = await _context.OrderDetails.FindAsync(id);
-            if (orderDetail != null)
-            {
-                _context.OrderDetails.Remove(orderDetail);
-            }
-            
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
+      
 
         private bool OrderDetailExists(int id)
         {
