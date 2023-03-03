@@ -54,60 +54,7 @@ namespace WEBGROUP_GCC0903.Controllers
             return View(orderDetail);
         }
 
-        // GET: OrderDetail/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null || _context.OrderDetails == null)
-            {
-                return NotFound();
-            }
-
-            var orderDetail = await _context.OrderDetails.FindAsync(id);
-            if (orderDetail == null)
-            {
-                return NotFound();
-            }
-            ViewData["order_id"] = new SelectList(_context.Orders, "order_id", "order_id", orderDetail.order_id);
-            ViewData["pro_id"] = new SelectList(_context.Products, "pro_id", "pro_id", orderDetail.pro_id);
-            return View(orderDetail);
-        }
-
-        // POST: OrderDetail/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("order_id,quantity,pro_id")] OrderDetail orderDetail)
-        {
-            if (id != orderDetail.order_id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(orderDetail);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!OrderDetailExists(orderDetail.order_id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["order_id"] = new SelectList(_context.Orders, "order_id", "order_id", orderDetail.order_id);
-            ViewData["pro_id"] = new SelectList(_context.Products, "pro_id", "pro_id", orderDetail.pro_id);
-            return View(orderDetail);
-        }
+       
 
         // GET: OrderDetail/Delete/5
         public async Task<IActionResult> Delete(int? id)
