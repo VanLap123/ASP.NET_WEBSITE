@@ -52,17 +52,11 @@ namespace WEBGROUP_GCC0903.Controllers
         // GET: Categories/Edit/5
         public IActionResult Edit(int id)
         {
-            if (id == null || _db.Categories == null)
-            {
-                return NotFound();
+            Category obj = _db.Categories.Find(id);
+            if(obj==null){
+                return RedirectToAction("Index");
             }
-
-            Category category =  _db.Categories.Find(id);
-            if (category == null)
-            {
-                return NotFound();
-            }
-            return View(category);
+            return View(obj);
         }
 
         // POST: Categories/Edit/5
@@ -70,17 +64,12 @@ namespace WEBGROUP_GCC0903.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(int id, Category category)
+        public IActionResult Edit(int id,Category category)
         {
-            if (id != category.cat_id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                category.cat_id = id;
+             if(ModelState.IsValid){
+                category.cat_id=id;
                 _db.Categories.Update(category);
+                _db.SaveChanges();
                 return RedirectToAction("Index");
             }
             return View(category);

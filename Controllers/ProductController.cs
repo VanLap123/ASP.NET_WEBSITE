@@ -60,7 +60,7 @@ namespace WEBGROUP_GCC0903.Controllers
                 _db.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["cat_id"] = new SelectList(_db.Categories, "cat_id", "cat_id", product.cat_id);
+            ViewData["cat_id"] = new SelectList(_db.Categories, "cat_id", "cat_name", product.cat_id);
             return View(product);
         }
 
