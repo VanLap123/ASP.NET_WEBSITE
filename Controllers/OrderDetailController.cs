@@ -26,25 +26,7 @@ namespace WEBGROUP_GCC0903.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
-        // GET: OrderDetail/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null || _context.OrderDetails == null)
-            {
-                return NotFound();
-            }
-
-            var orderDetail = await _context.OrderDetails
-                .Include(o => o.Order)
-                .Include(o => o.Product)
-                .FirstOrDefaultAsync(m => m.order_id == id);
-            if (orderDetail == null)
-            {
-                return NotFound();
-            }
-
-            return View(orderDetail);
-        }
+       
 
         // GET: OrderDetail/Create
         public IActionResult Create()
