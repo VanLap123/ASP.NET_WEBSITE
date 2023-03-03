@@ -32,34 +32,13 @@
 								<h4 class="mr-1">Price: $@item.sale_price</h4>
 							</div>
 							<h6 class="text-success">Free Shipping</h6>
-							<div class="d-flex flex-column mt-4"> <a asp-route="addcart" asp-route-productid="@item.pro_id"class="btn btn-secondary btn-sm float-right">Add to cart</a>
+							<div class="d-flex flex-column mt-4"> 
+							<a asp-route="addcart" asp-route-productid="@item.pro_id"class="btn btn-secondary btn-sm float-right">Add to cart</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
-			 @*<div class="col-3">
-		<div class="product-f-image">
-		<div class="d-flex justify-content-center">
-		<img src="~/Products/@item.pro_image" width="200" height="200">
-		</div>
-		<div class="mt-2 text-center">
-		<a asp-route="addcart" asp-route-productid="@item.pro_id" class="btn btn-primary add-to-cart-link">
-		<i class="fa fa-shopping-cart"></i> Add to Cart
-		</a>
-		<a href="#" class="btn btn-primary view-details-link">
-		<i class="fa fa-link"></i> See details
-		</a>
-		</div>
-		</div>
-		<h2 class="text-center mt-2">
-		<a class="card-title text-decoration-none">@item.pro_name</a>
-		</h2>
-		<div class="product-carousel-price text-center">
-		@item.sale_price
-		</div>
-		</div>*@
 		}
 	</div>
 </section>
