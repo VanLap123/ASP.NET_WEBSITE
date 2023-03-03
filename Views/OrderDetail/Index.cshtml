@@ -13,33 +13,28 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.quantity)
+                Quantity
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Order)
+                Order ID
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Product)
+                Product ID
             </th>
-            <th></th>
+            
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.quantity)
+                @item.quantity
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Order.order_id)
+                @item.Order.order_id
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Product.pro_id)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                @item.Product.pro_id
             </td>
         </tr>
 }
