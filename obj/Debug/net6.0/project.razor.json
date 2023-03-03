@@ -18444,6 +18444,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Web1670\\WEBGROUP_GCC0903\\Views\\OrderDetail\\Edit.cshtml",
+      "TargetPath": "Views\\OrderDetail\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Web1670\\WEBGROUP_GCC0903\\Views\\Categories\\Index.cshtml",
       "TargetPath": "Views\\Categories\\Index.cshtml",
       "FileKind": "mvc"
@@ -18471,6 +18476,11 @@
     {
       "FilePath": "d:\\Web1670\\WEBGROUP_GCC0903\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Web1670\\WEBGROUP_GCC0903\\Views\\OrderDetail\\Delete.cshtml",
+      "TargetPath": "Views\\OrderDetail\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18541,6 +18551,11 @@
     {
       "FilePath": "d:\\Web1670\\WEBGROUP_GCC0903\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Web1670\\WEBGROUP_GCC0903\\Views\\OrderDetail\\Details.cshtml",
+      "TargetPath": "Views\\OrderDetail\\Details.cshtml",
       "FileKind": "mvc"
     },
     {

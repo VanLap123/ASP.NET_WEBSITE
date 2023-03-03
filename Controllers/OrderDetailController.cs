@@ -26,7 +26,6 @@ namespace WEBGROUP_GCC0903.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
-       
 
         // GET: OrderDetail/Create
         public IActionResult Create()
@@ -54,8 +53,7 @@ namespace WEBGROUP_GCC0903.Controllers
             return View(orderDetail);
         }
 
-       
-
+    
       
 
         private bool OrderDetailExists(int id)

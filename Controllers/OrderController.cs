@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -11,7 +10,6 @@ using WEBGROUP_GCC0903.Models;
 
 namespace WEBGROUP_GCC0903.Controllers
 {
-    [Authorize(Roles="Admin")]
     public class OrderController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -22,11 +20,12 @@ namespace WEBGROUP_GCC0903.Controllers
         }
 
         // GET: Order
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
               IEnumerable<Order> ds = _context.Orders.ToList();
-                return View(ds);
+              return View(ds);
         }
+
 
         // GET: Order/Create
         public IActionResult Create()
@@ -39,12 +38,12 @@ namespace WEBGROUP_GCC0903.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Order order)
+        public IActionResult Create( Order order)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(order);
-                _context.SaveChangesAsync();
+                 _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(order);
@@ -53,17 +52,12 @@ namespace WEBGROUP_GCC0903.Controllers
         // GET: Order/Edit/5
         public IActionResult Edit(int? id)
         {
-            if (id == null || _context.Orders == null)
-            {
-                return NotFound();
+           
+            Order obj = _context.Orders.Find(id);
+            if(obj==null){
+                return RedirectToAction("Index");
             }
-
-            var order =_context.Orders.FindAsync(id);
-            if (order == null)
-            {
-                return NotFound();
-            }
-            return View(order);
+            return View(obj);
         }
 
         // POST: Order/Edit/5
@@ -73,35 +67,16 @@ namespace WEBGROUP_GCC0903.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, Order order)
         {
-            if (id != order.order_id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(order);
-                    _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!OrderExists(order.order_id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+            if(ModelState.IsValid){
+                order.order_id=id;
+                _context.Orders.Update(order);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
             }
             return View(order);
         }
 
-         public IActionResult Delete(int id)
+        public IActionResult Delete(int id)
         {
             Order obj=_context.Orders.Find(id);
             _context.Orders.Remove(obj);
