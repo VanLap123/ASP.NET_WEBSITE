@@ -19,11 +19,17 @@ public class HomeController : Controller
 
     public IActionResult Index(string SearchString = "")
     {
-        if (SearchString != "")
-        {
-            var Products = _db.Products.Include(s => s.category).Where(x => x.pro_name.ToUpper().Contains(SearchString.ToUpper()));
-            return View(Products.ToList());
+        try{
+            if (SearchString != "")
+            {
+                var Products = _db.Products.Include(s => s.category).Where(x => x.pro_name.ToUpper().Contains(SearchString.ToUpper()));
+                return View(Products.ToList());
+            }
         }
+        catch(Exception ex){
+            
+        }
+       
     
         IEnumerable<Product> lstPro = _db.Products.ToList();
         return View(lstPro);
