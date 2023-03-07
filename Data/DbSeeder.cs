@@ -35,20 +35,20 @@ namespace WEBGROUP_GCC0903.Data
                 await userManager.AddToRoleAsync(user, Roles.Admin.ToString());
             }
 
-            var owner = new WebApp1User
-            {
-                UserName = "owner",
-                Email = "owner@gmail.com",
-                Name = "Owner",
-                EmailConfirmed = true,
-                PhoneNumberConfirmed = true
-            };
-            var ownerInDb = await userManager.FindByEmailAsync(owner.Email);
-            if (ownerInDb == null)
-            {
-                await userManager.CreateAsync(owner, "Owner@123");
-                await userManager.AddToRoleAsync(owner, Roles.User.ToString());
-            }
+            // var owner = new WebApp1User
+            // {
+            //     UserName = "owner",
+            //     Email = "owner@gmail.com",
+            //     Name = "Owner",
+            //     EmailConfirmed = true,
+            //     PhoneNumberConfirmed = true
+            // };
+            // var ownerInDb = await userManager.FindByEmailAsync(owner.Email);
+            // if (ownerInDb == null)
+            // {
+            //     await userManager.CreateAsync(user, "Owner@123");
+            //     await userManager.AddToRoleAsync(user, Roles.User.ToString());
+            // }
         }
     }
     

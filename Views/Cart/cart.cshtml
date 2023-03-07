@@ -49,7 +49,7 @@ else {
                      
                      <div class="col-md-5 col-lg-5 col-xl-5">
                        
-                          <button type="button" class="btn btn-outline-primary updatecartitem" data-productid="@cartitem.product.pro_id">Update</button>
+                      <button type="button" class="btn btn-outline-primary updatecartitem" data-productid="@cartitem.product.pro_id">Update</button>
                       <a asp-route="removecart" asp-route-productid="@cartitem.product.pro_id" class="btn btn-outline-primary">Remove</a>
                       
                     </div>
@@ -62,7 +62,7 @@ else {
                   <div class="pt-5">
                     <h6 class="mb-0"><a href="#!" class="text-body">
                     @* <i class="fas fa-long-arrow-alt-left me-2" asp-controller="Home" asp-action="Index"></i>Back to shop</a></h6> *@
-                          <a class="fas fa-long-arrow-alt-left me-2" asp-area="" asp-controller="Home" asp-action="Index">Back to shop</a>
+                          <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Index">Back</a>
                   </div>
                 </div>
               </div>

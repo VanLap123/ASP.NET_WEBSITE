@@ -10,6 +10,7 @@ namespace WEBGROUP_GCC0903.Models
     {
         [Key]
         public int cat_id { get; set; }
+        [StringLength(maximumLength:25,MinimumLength =3,ErrorMessage ="Length must be between 3 to 25")]
         public string cat_name { get; set; }
         public virtual ICollection<Product>? product { get; set; }
     }

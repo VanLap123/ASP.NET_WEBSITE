@@ -13,6 +13,7 @@ namespace WEBGROUP_GCC0903.Models
 		public int order_id { get; set; }
 		[Key]
 		[Column(Order = 2)]
+		[Range(1, 200000, ErrorMessage = "The Quantity will a positive number between 1 to 200000")]
 		public int quantity { get; set; }
 		public int pro_id { get; set; }
 		[ForeignKey("order_id")]
