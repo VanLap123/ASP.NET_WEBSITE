@@ -97,16 +97,17 @@ namespace WEBGROUP_GCC0903.Controllers
             {
                 try
                 {
-                    if (product.ImageFile != null)
-                    {
-                        var result = _fileService.SaveImage(product.ImageFile);
-                        if (result.Item1 == 1)
-                        {
-                            var oldImage = product.pro_image;
-                            product.pro_image = result.Item2;
-                            _fileService.DeleteImage(oldImage);
-                        }
-                    }
+                    // if (product.ImageFile != null)
+                    // {
+                    //     var result = _fileService.SaveImage(product.ImageFile);
+                    //     if (result.Item1 == 1)
+                    //     {
+                    //         var oldImage = product.pro_image;
+                    //         product.pro_image = result.Item2;
+                    //         _fileService.DeleteImage(oldImage);
+                    //     }
+                    // }
+                    
                     _db.Update(product);
                     _db.SaveChanges();
                 }

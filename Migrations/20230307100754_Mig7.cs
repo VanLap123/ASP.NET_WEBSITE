@@ -56,7 +56,7 @@ namespace WEBGROUP_GCC0903.Migrations
                 {
                     cat_id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    cat_name = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    cat_name = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -69,13 +69,13 @@ namespace WEBGROUP_GCC0903.Migrations
                 {
                     order_id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    country = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    cus_first_name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    cus_last_name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    cus_address = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    cus_city = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    cus_phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    cus_email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    country = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: false),
+                    cus_first_name = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: false),
+                    cus_last_name = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: false),
+                    cus_address = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: false),
+                    cus_city = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: false),
+                    cus_phone = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: false),
+                    cus_email = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: false),
                     OrderDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     DeliveryDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
@@ -196,12 +196,12 @@ namespace WEBGROUP_GCC0903.Migrations
                 {
                     pro_id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    pro_name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    pro_name = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: false),
                     pro_quantity = table.Column<int>(type: "int", nullable: false),
                     import_price = table.Column<float>(type: "real", nullable: false),
                     sale_price = table.Column<float>(type: "real", nullable: false),
                     pro_image = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    description = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     cat_id = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

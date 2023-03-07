@@ -105,6 +105,7 @@ namespace WEBGROUP_GCC0903.Controllers
      [HttpPost]
         public IActionResult CheckOut(string country,string first_name,string last_name,string address,string city,string phone_number,string email_address)
         {
+            try{
             Order order = new Order()
             {
                 country = country,
@@ -131,6 +132,10 @@ namespace WEBGROUP_GCC0903.Controllers
                 _db.SaveChanges();
             }
             ClearCart();
+            
+            }catch(Exception ex){
+
+            }
             return Redirect("~/Home/Index");
         }
         

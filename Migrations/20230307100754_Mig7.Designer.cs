@@ -12,7 +12,7 @@ using WEBGROUP_GCC0903.Data;
 namespace WEBGROUP_GCC0903.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230301043046_Mig7")]
+    [Migration("20230307100754_Mig7")]
     partial class Mig7
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -238,7 +238,8 @@ namespace WEBGROUP_GCC0903.Migrations
 
                     b.Property<string>("cat_name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
 
                     b.HasKey("cat_id");
 
@@ -294,31 +295,38 @@ namespace WEBGROUP_GCC0903.Migrations
 
                     b.Property<string>("country")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
 
                     b.Property<string>("cus_address")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
 
                     b.Property<string>("cus_city")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
 
                     b.Property<string>("cus_email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
 
                     b.Property<string>("cus_first_name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
 
                     b.Property<string>("cus_last_name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
 
                     b.Property<string>("cus_phone")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
 
                     b.HasKey("order_id");
 
@@ -358,7 +366,8 @@ namespace WEBGROUP_GCC0903.Migrations
 
                     b.Property<string>("description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<float>("import_price")
                         .HasColumnType("real");
@@ -368,7 +377,8 @@ namespace WEBGROUP_GCC0903.Migrations
 
                     b.Property<string>("pro_name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
 
                     b.Property<int>("pro_quantity")
                         .HasColumnType("int");
