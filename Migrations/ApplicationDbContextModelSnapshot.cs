@@ -236,8 +236,8 @@ namespace WEBGROUP_GCC0903.Migrations
 
                     b.Property<string>("cat_name")
                         .IsRequired()
-                        .HasMaxLength(25)
-                        .HasColumnType("nvarchar(25)");
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
 
                     b.HasKey("cat_id");
 

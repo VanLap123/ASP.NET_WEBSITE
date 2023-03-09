@@ -43,7 +43,7 @@ else {
                     <div class="col-md-5 col-lg-5 col-xl-5">
                       <h6 class="text-muted">Name: @cartitem.product.pro_name</h6>
                        <h6 class="text-black mb-0"> Price: @cartitem.product.sale_price</h6>
-                       <h6 class="text-black mb-0">Quantity: <input asp-for="@cartitem.quantity" id="@($"quantity-{cartitem.product.pro_id}")"/> </h6>
+                       <h6 class="text-black mb-0">Quantity: <input asp-for="@cartitem.quantity" type="number" min=1 id="@($"quantity-{cartitem.product.pro_id}")"/> </h6>
                        <h6 class="text-black mb-0"> Amount: @(thanhtien.ToString("n0"))</h6> 
                        
                     </div>

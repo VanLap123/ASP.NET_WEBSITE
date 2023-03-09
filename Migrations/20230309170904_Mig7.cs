@@ -56,7 +56,7 @@ namespace WEBGROUP_GCC0903.Migrations
                 {
                     cat_id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    cat_name = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: false)
+                    cat_name = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false)
                 },
                 constraints: table =>
                 {

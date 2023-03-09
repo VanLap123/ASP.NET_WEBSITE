@@ -12,7 +12,7 @@ using WEBGROUP_GCC0903.Data;
 namespace WEBGROUP_GCC0903.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230307100754_Mig7")]
+    [Migration("20230309170904_Mig7")]
     partial class Mig7
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -238,8 +238,8 @@ namespace WEBGROUP_GCC0903.Migrations
 
                     b.Property<string>("cat_name")
                         .IsRequired()
-                        .HasMaxLength(25)
-                        .HasColumnType("nvarchar(25)");
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
 
                     b.HasKey("cat_id");
 
