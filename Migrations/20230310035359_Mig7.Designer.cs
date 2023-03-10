@@ -12,7 +12,7 @@ using WEBGROUP_GCC0903.Data;
 namespace WEBGROUP_GCC0903.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230309170904_Mig7")]
+    [Migration("20230310035359_Mig7")]
     partial class Mig7
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -246,39 +246,6 @@ namespace WEBGROUP_GCC0903.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("WEBGROUP_GCC0903.Models.Customer", b =>
-                {
-                    b.Property<int>("cus_id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("cus_id"), 1L, 1);
-
-                    b.Property<string>("cus_address")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("cus_birthday")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("cus_gender")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("cus_name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("order_id")
-                        .HasColumnType("int");
-
-                    b.HasKey("cus_id");
-
-                    b.HasIndex("order_id");
-
-                    b.ToTable("Customers");
-                });
-
             modelBuilder.Entity("WEBGROUP_GCC0903.Models.Order", b =>
                 {
                     b.Property<int>("order_id")
@@ -454,13 +421,6 @@ namespace WEBGROUP_GCC0903.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("WEBGROUP_GCC0903.Models.Customer", b =>
-                {
-                    b.HasOne("WEBGROUP_GCC0903.Models.Order", null)
-                        .WithMany("Customers")
-                        .HasForeignKey("order_id");
-                });
-
             modelBuilder.Entity("WEBGROUP_GCC0903.Models.OrderDetail", b =>
                 {
                     b.HasOne("WEBGROUP_GCC0903.Models.Order", "Order")
@@ -494,11 +454,6 @@ namespace WEBGROUP_GCC0903.Migrations
             modelBuilder.Entity("WEBGROUP_GCC0903.Models.Category", b =>
                 {
                     b.Navigation("product");
-                });
-
-            modelBuilder.Entity("WEBGROUP_GCC0903.Models.Order", b =>
-                {
-                    b.Navigation("Customers");
                 });
 #pragma warning restore 612, 618
         }

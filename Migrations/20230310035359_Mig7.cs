@@ -216,28 +216,6 @@ namespace WEBGROUP_GCC0903.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Customers",
-                columns: table => new
-                {
-                    cus_id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    cus_name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    cus_birthday = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    cus_gender = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    cus_address = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    order_id = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Customers", x => x.cus_id);
-                    table.ForeignKey(
-                        name: "FK_Customers_Orders_order_id",
-                        column: x => x.order_id,
-                        principalTable: "Orders",
-                        principalColumn: "order_id");
-                });
-
-            migrationBuilder.CreateTable(
                 name: "OrderDetails",
                 columns: table => new
                 {
@@ -302,11 +280,6 @@ namespace WEBGROUP_GCC0903.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Customers_order_id",
-                table: "Customers",
-                column: "order_id");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_OrderDetails_pro_id",
                 table: "OrderDetails",
                 column: "pro_id");
@@ -333,9 +306,6 @@ namespace WEBGROUP_GCC0903.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
-
-            migrationBuilder.DropTable(
-                name: "Customers");
 
             migrationBuilder.DropTable(
                 name: "OrderDetails");

@@ -30,7 +30,6 @@ namespace WEBGROUP_GCC0903.Models
 		public DateTime OrderDate { get; set; }
 		[DataType(DataType.Date)]
 		public DateTime DeliveryDate { get; set; }
-		public virtual ICollection<Customer>? Customers { get; set; }
 	
 	}
 }
