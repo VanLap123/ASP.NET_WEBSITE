@@ -1836,3 +1836,8 @@ D:\Web1670\WEBGROUP_GCC0903\obj\Debug\net6.0\refint\WEBGROUP_GCC0903.dll
 D:\Web1670\WEBGROUP_GCC0903\obj\Debug\net6.0\WEBGROUP_GCC0903.pdb
 D:\Web1670\WEBGROUP_GCC0903\obj\Debug\net6.0\WEBGROUP_GCC0903.genruntimeconfig.cache
 D:\Web1670\WEBGROUP_GCC0903\obj\Debug\net6.0\ref\WEBGROUP_GCC0903.dll
+D:\Web1670\WEBGROUP_GCC0903\bin\Debug\net6.0\ASM2WEB\web.config
+D:\Web1670\WEBGROUP_GCC0903\bin\Debug\net6.0\ASM2WEB\appsettings.Development.json
+D:\Web1670\WEBGROUP_GCC0903\bin\Debug\net6.0\ASM2WEB\appsettings.json
+D:\Web1670\WEBGROUP_GCC0903\bin\Debug\net6.0\ASM2WEB\WEBGROUP_GCC0903.deps.json
+D:\Web1670\WEBGROUP_GCC0903\bin\Debug\net6.0\ASM2WEB\WEBGROUP_GCC0903.runtimeconfig.json
