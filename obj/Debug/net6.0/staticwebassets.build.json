@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VM4OqjGS8rOn5KeyrXfBkEEoVTVH0C/m+CHh+bZvROk=",
+  "Hash": "xYH06qScpNThb5qBJNlTwmDxLZVJ22wONhpSA2hmsPc=",
   "Source": "WEBGROUP_GCC0903",
   "BasePath": "_content/WEBGROUP_GCC0903",
   "Mode": "Default",
@@ -2395,6 +2395,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Products\\51c475ed-fd49-4e31-b886-51cdc7c1139a.jpg"
+    },
+    {
+      "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\7a756020-b54d-4e91-b011-e61a7b93965f.png",
+      "SourceId": "WEBGROUP_GCC0903",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\",
+      "BasePath": "_content/WEBGROUP_GCC0903",
+      "RelativePath": "Products/7a756020-b54d-4e91-b011-e61a7b93965f.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Products\\7a756020-b54d-4e91-b011-e61a7b93965f.png"
     },
     {
       "Identity": "D:\\Web1670\\WEBGROUP_GCC0903\\wwwroot\\Products\\7dcd3532-265d-4af3-92b8-be9ab996944d.jpg",
